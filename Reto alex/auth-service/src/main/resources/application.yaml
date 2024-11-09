@@ -1,0 +1,17 @@
+jwt:
+  secret: mznxjahqeuryfhjamcxbchjauqyewyerybfghidbhqrbchjauqyewyerybfghidbhqruryfhjamcxbchjauqznxjahqeuryfhjamcxbchjauqpqoaoeirustgdjdskdsllajdmxn
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/users
+    username: postgres
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+server:
+  port: 8081
